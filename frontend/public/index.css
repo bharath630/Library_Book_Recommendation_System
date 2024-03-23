@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-image: url("to_do_image.jpg") ;
+    background-size:  cover;
+
+    
+}
+.note2{
+    background:  #F0DE36;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 95%;
+    margin: 16px;
+    float: left;
+}
+.note2 h4 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+  }
+.note2 p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space : pre-wrap;
+    word-wrap: break-word;
+  }
+
+.container input{
+    margin-top: 15px;
+    border: none;
+    border-radius: none;
+    border-bottom: 2px black solid;
+    
+}
+
+.container input::placeholder{
+    font-family: 'PT Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+
+.calendar{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.calendar h4{
+    margin-top: 25px;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+.calendar input{
+    width:250px;
+    
+}
+
+.container input:hover{
+    border-color: #0D6EFD;
+}
+
+.header{
+    background-color: #ffcd17;
+margin: auto -16px;
+padding: 16px 32px;
+box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.header h2 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    
+    
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.login{
+    width: 320px;
+    height: 325px;
+    background-color: transparent;
+    border: 2px solid rgb(159, 179, 186);
+    border-radius: 10px;
+    box-shadow: 10px;
+    justify-content: center;
+ padding: 10px;
+ margin-top: 150px;
+ backdrop-filter: blur(10px);
+}
+h1{
+  
+    font: italic 45px "Fira Sans", serif;
+   color: white ;
+   text-align: center;
+
+}
+input{
+    width: 95%;
+    height:30px;
+   
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: transparent;
+    
+}
+
+input:hover{
+        background-color: white;
+        border-bottom: 2px dashed;
+        box-shadow: 0 0 20px rgba(0,0,0,.3);
+}
+.container .login span{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    margin-left: 4px;
+
+}
+.container .login span:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.login_button{
+    color:white;
+    background-color:#0D6EFD;
+
+    padding:10px;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    border-radius:10px;
+    font-size:15px;
+    border:none;
+    cursor:pointer;
+}
+
+.submit_button{
+    color:white;
+    background-color:#0D6EFD;
+
+    padding:10px;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    border-radius:10px;
+    font-size:15px;
+    border:none;
+    cursor:pointer;
+}
+
+.Delete_button{
+    color:white;
+    background-color:#0D6EFD;
+
+    padding:10px;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    border-radius:10px;
+    font-size:15px;
+    border:none;
+    cursor:pointer;
+}
+
+.Delete_button:hover{
+    background-color: #D71313;
+    color: black;
+}
+
+.add{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.submit_button:hover{
+    background-color: #ffcd17;
+    color:black;
+    box-shadow: 30px;
+}
+
+.login_button:hover{
+    box-shadow: "20px";
+    background-color: white;
+    color: black;
+}
+
+.styl1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#019dcd;
+    color: White;
+    border: #ff5f09 solid 5px;
+    width: 450px;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+
